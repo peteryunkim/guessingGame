@@ -9,11 +9,17 @@ const tiles = [[1,2,3,4,5],
 [41,42,43,44,45],
 [46]]
 
-const translation = {
+const jdict = {
 	ka: か,
 	ki: き,
 	ku: く,
 	ke: け,
-	ku: こ
+	ku: こ,
+	sa: さ,
+	shi: し,
+	su: す,
+	se: せ,
+	so: そ,
 }
 
+document.getElementsByClassName('tiles')
