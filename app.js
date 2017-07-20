@@ -1,4 +1,6 @@
-const tiles = [[1,2,3,4,5],
+
+
+const board = [[1,2,3,4,5],
 [6,7,8,9,10],
 [11,12,13,14,15],
 [16,17,18,19,20],
@@ -9,17 +11,9 @@ const tiles = [[1,2,3,4,5],
 [41,42,43,44,45],
 [46]]
 
-const jdict = {
-	ka: か,
-	ki: き,
-	ku: く,
-	ke: け,
-	ku: こ,
-	sa: さ,
-	shi: し,
-	su: す,
-	se: せ,
-	so: そ,
+const renderTiles = () => {
+let tiles = document.getElementsByClassName('tiles')
+ 
 }
 
-document.getElementsByClassName('tiles')
+renderTiles()
